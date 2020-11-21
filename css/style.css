@@ -48,13 +48,40 @@ body {
     font-size: 3.125 rem;
     font-weight: 700;
     margin: 0;
+    letter-spacing: 3px;
 }
 
 .our-story_block {
     text-align: center;
     padding: 90px;
+    max-width: 1100px;
+    margin: 0 auto;
+
 }
 
 .timeline_labels {
     display: flex;
+    justify-content: space-between;
+    font-size: 1.625rem;
+    position: relative;
+}
+
+.timeline_free-trial-text {
+    text-align: left;
+    color: #00d65f;
+    font-weight: 600;
+    width: 38%;
+    position: absolute;
+    left: 0;
+}
+
+.timeline_billing {
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    color: #8c8c8c;
+}
+
+.timeline_bill-date {
+    color: #fff;
 }
